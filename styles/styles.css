@@ -179,7 +179,7 @@ ul.nav-group {
   -webkit-filter: contrast(.9) sepia(.2);
 }
 
-.polaroid::before {
+.polaroid--before {
   content: "";
   display: block;
   padding-top: calc(100% * 9 / 16);
