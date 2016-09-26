@@ -199,7 +199,7 @@ ul.nav-group {
   background: linear-gradient(#fdcc52,#fdc539);
 }
 
-.polaroid::after {
+.polaroid--after {
   content: '';
   position: absolute;
   display: block;
