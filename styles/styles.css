@@ -203,7 +203,7 @@ ul.nav-group {
   mix-blend-mode: overlay;
 }
 
-.student-fact .card {
+.student-fact, .card {
   margin: 0;
   padding: 1rem;
   overflow: hidden;
