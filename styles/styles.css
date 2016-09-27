@@ -152,12 +152,12 @@ ul.nav-group {
 }
 
 .row__column-2-3 {
-  width: calc(100% * 2 / 3 - 2rem;
+  width: calc(100% * 2 / 3 - 2rem);
 }
 
 .section--photo {
   padding: 6em 1rem;
-  background: url('../lights.jpeg') no-repeat center center fixed;
+  background: url("../lights.jpeg") no-repeat center center fixed;
   background-size: cover;
   color: #ecf0f1;
   text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.7);
