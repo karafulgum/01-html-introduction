@@ -1,5 +1,5 @@
 tml {
-  box-sizing:
+  box-sizing;
   border-box;
 }
 
@@ -38,7 +38,7 @@ img {
   min-height: 100vh;
   padding: 0 1rem;
   background: url("https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png"),
-    linear-gradient(to left, #2c3e50, #e74c3c);
+  linear-gradient(45deg, #2c3e50, #e74c3c);
   color: #ecf0f1;
 }
 
@@ -61,7 +61,7 @@ img {
 
 .nav-group {
   font-size: 1.2rem;
-  margin 1rem 0;
+  margin: 1rem 0;
 }
 
 .nav-group a {
@@ -157,7 +157,7 @@ ul.nav-group {
 
 .section--photo {
   padding: 6em 1rem;
-  background: url("../lights.jpeg") no-repeat center center fixed;
+  background: url("../image/lights.jpeg") no-repeat center center fixed;
   background-size: cover;
   color: #ecf0f1;
   text-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.7);
