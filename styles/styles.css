@@ -85,7 +85,7 @@ ul.nav-group {
 
 .btn {
   display: inline-block;
-  border: current;
+  border: solid;
   color: 1px solid;
   line-height: 1em;
   border-radius: 2em;
@@ -172,7 +172,7 @@ ul.nav-group {
   -webkit-filter: contrast(.9) sepia(.2);
 }
 
-.polaroid--before {
+.polaroid::before {
   content: "";
   display: block;
   padding-top: calc(100% * 9 / 16);
@@ -190,7 +190,7 @@ ul.nav-group {
   background: linear-gradient(#fdcc52,#fdc539);
 }
 
-.polaroid--after {
+.polaroid::after {
   content: "";
   position: absolute;
   display: block;
