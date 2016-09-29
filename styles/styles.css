@@ -1,4 +1,4 @@
-* {
+html {
   box-sizing:border-box;
 }
 
@@ -37,7 +37,7 @@ img {
   min-height: 100vh;
   padding: 0 1rem;
   background: url("https://blackrockdigital.github.io/startbootstrap-new-age/img/bg-pattern.png"),
-  linear-gradient(45deg, #2c3e50, #e74c3c);
+  linear-gradient(to left, #2c3e50, #e74c3c);
   color: #ecf0f1;
 }
 
@@ -70,6 +70,7 @@ img {
 
 ul.nav-group {
   display: flex;
+  float: right;
   margin: 1rem -0.5rem;
 }
 
@@ -84,8 +85,7 @@ ul.nav-group {
 
 .btn {
   display: inline-block;
-  border: solid;
-  color: 1px solid;
+  border: currentColor 1px solid;
   line-height: 1em;
   border-radius: 2em;
   padding: 0.5em;
@@ -180,8 +180,9 @@ ul.nav-group {
 .polaroid img {
   position: absolute;
   top: 0;
-  width: 0 100%;
+  width: 0;
   height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
